@@ -1,19 +1,50 @@
 IneraCoreTemplate : Validation Results
 =========================================
 
-err = 0, warn = 1, info = 5, broken links = 3
+err = 0, warn = 32, info = 5, broken links = 3
 $--
 Generated $--. FHIR version $-- for inera.core.template#$-- (canonical = https://fhir.inera.se/ig/template)
- Build Errors : 3 / 0 / 0
+ Build Errors : 3 / 31 / 0
  /home/runner/work/Testmall/Testmall/fsh-generated/resources/ImplementationGuide-inera.core.template : 0 / 0 / 3
  /home/runner/work/Testmall/Testmall/fsh-generated/resources/Patient-IneraPatientExample : 0 / 1 / 1
  /home/runner/work/Testmall/Testmall/fsh-generated/resources/StructureDefinition-IneraPatient : 0 / 0 / 4
 </table>
 
 == n/a ==
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/Patient-IneraPatientExample.change.history.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 277 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/Patient-IneraPatientExample.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 294 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/Patient-IneraPatientExample.json.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 330 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/Patient-IneraPatientExample.ttl.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 347 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/Patient-IneraPatientExample.xml.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 319 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/StructureDefinition-IneraPatient-definitions.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 870 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/StructureDefinition-IneraPatient-examples.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 349 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/StructureDefinition-IneraPatient-mappings.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 1179 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/StructureDefinition-IneraPatient-testing.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 342 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/StructureDefinition-IneraPatient.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 2843 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/StructureDefinition-IneraPatient.profile.history.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 324 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/StructureDefinition-IneraPatient.profile.json.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 4189 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/StructureDefinition-IneraPatient.profile.ttl.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 4331 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/StructureDefinition-IneraPatient.profile.xml.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 3846 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/about.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 261 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/artifacts.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 289 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/capabilitystatement.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 251 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/downloads.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 265 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/error-handling.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 249 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/expected-responses.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 249 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/index.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 357 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/information-basis.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 287 column 10
 ERROR: sv/information-basis.html#/html/body/div/div/div/div/div/table/tbody/tr/td/em/a at Line 200, column 16: The link '[länk till publicerat dokument]' for "Namn på informationsspecifikationen" cannot be resolved
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/introduction.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 259 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/mappings.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 334 column 10
 ERROR: sv/mappings.html#/html/body/div/div/div/div/div/table/tbody/tr/td/em/a at Line 234, column 16: The link 'StructureDefinition-[Profil].html' for "Profil.element" cannot be resolved
 ERROR: sv/mappings.html#/html/body/div/div/div/div/div/table/tbody/tr/td/em/a at Line 240, column 16: The link 'StructureDefinition-[Profil].html' for "Profil.element" cannot be resolved
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/rest-interactions.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 272 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/roles-and-responsibilities.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 299 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/security.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 249 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/testing.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 249 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/toc.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 231 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/use-cases.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 259 column 10
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/version-history.html: The html source is not well formed: Found "</body>" expecting "</div>" at line 436 column 10
 
 
 == fsh-generated/resources/ImplementationGuide-inera.core.template.json ==
