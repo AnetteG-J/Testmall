@@ -1,6 +1,6 @@
-id: inera.core.template
+id: AnetteCoreTemplate
 canonical: https://anetteg-j.github.io/Testmall
-name: IneraCoreTemplate
+name: AnetteCoreTemplate
 title: "Inera FHIR Implementation Guide Template"
 description: "Mall för Ineras FHIR Implementation Guides."
 status: draft
