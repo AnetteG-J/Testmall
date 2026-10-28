@@ -7,7 +7,7 @@
   "profiles": {
     "Patient": [
       {
-        "url": "https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient",
+        "url": "https://anetteg-j.github.io/Testmall/StructureDefinition/IneraPatient",
         "title": "Inera Patient"
       }
     ]

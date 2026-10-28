@@ -9,12 +9,12 @@
   "resourceType" : "ImplementationGuide",
   "id" : "inera.core.template",
   "language" : "sv",
-  "url" : "https://fhir.inera.se/ig/template/ImplementationGuide/inera.core.template",
+  "url" : "https://anetteg-j.github.io/Testmall/ImplementationGuide/inera.core.template",
   "version" : "2.3.0",
   "name" : "IneraCoreTemplate",
   "title" : "Inera FHIR Implementation Guide Template",
   "status" : "draft",
-  "date" : "2026-10-28T14:18:39+00:00",
+  "date" : "2026-10-28T15:17:58+00:00",
   "publisher" : "Inera AB",
   "contact" : [{
     "name" : "Inera AB",
@@ -198,7 +198,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://fhir.inera.se/ig/template/history.html"
+        "valueString" : "https://anetteg-j.github.io/Testmall/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -397,7 +397,7 @@
       },
       "name" : "Inera Patient Example",
       "description" : "A minimal example of a patient conforming to the IneraPatient profile.",
-      "exampleCanonical" : "https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient"
+      "exampleCanonical" : "https://anetteg-j.github.io/Testmall/StructureDefinition/IneraPatient"
     }],
     "page" : {
       "extension" : [{

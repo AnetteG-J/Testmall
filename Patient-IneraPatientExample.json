@@ -2,7 +2,7 @@
   "resourceType" : "Patient",
   "id" : "IneraPatientExample",
   "meta" : {
-    "profile" : ["https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient"]
+    "profile" : ["https://anetteg-j.github.io/Testmall/StructureDefinition/IneraPatient"]
   },
   "text" : {
     "status" : "generated",

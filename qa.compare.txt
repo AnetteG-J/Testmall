@@ -3,7 +3,7 @@ IneraCoreTemplate : Validation Results
 
 err = 0, warn = 32, info = 5, broken links = 3
 $--
-Generated $--. FHIR version $-- for inera.core.template#$-- (canonical = https://fhir.inera.se/ig/template)
+Generated $--. FHIR version $-- for inera.core.template#$-- (canonical = https://anetteg-j.github.io/Testmall)
  Build Errors : 3 / 31 / 0
  /home/runner/work/Testmall/Testmall/fsh-generated/resources/ImplementationGuide-inera.core.template : 0 / 0 / 3
  /home/runner/work/Testmall/Testmall/fsh-generated/resources/Patient-IneraPatientExample : 0 / 1 / 1

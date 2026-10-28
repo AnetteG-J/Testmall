@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.inera.se/ig/template/Patient/IneraPatientExample> a fhir:Patient ;
+<https://anetteg-j.github.io/Testmall/Patient/IneraPatientExample> a fhir:Patient ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "IneraPatientExample"] ;
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient" ;
+       fhir:value "https://anetteg-j.github.io/Testmall/StructureDefinition/IneraPatient" ;
        fhir:index -1 ;
-       fhir:link <https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient>
+       fhir:link <https://anetteg-j.github.io/Testmall/StructureDefinition/IneraPatient>
      ]
   ] ;
   fhir:Resource.language [ fhir:value "sv"] ;
@@ -50,7 +50,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.inera.se/ig/template/Patient/IneraPatientExample.ttl> a owl:Ontology ;
+<https://anetteg-j.github.io/Testmall/Patient/IneraPatientExample.ttl> a owl:Ontology ;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

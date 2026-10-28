@@ -60,7 +60,7 @@ Andra representationer av profilen: [CSV](../StructureDefinition-IneraPatient.cs
 {
   "resourceType" : "StructureDefinition",
   "id" : "IneraPatient",
-  "url" : "https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient",
+  "url" : "https://anetteg-j.github.io/Testmall/StructureDefinition/IneraPatient",
   "identifier" : [{
     "value" : "IneraPatient"
   }],

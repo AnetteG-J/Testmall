@@ -4,15 +4,15 @@
   <id value="inera.core.template"/>
   <language value="sv"/>
   <text>
-    <status value="generated"/><div xml:lang="sv" xmlns="http://www.w3.org/1999/xhtml" lang="sv"><p class="res-header-id"><b>Genererad berättande text: ImplementationGuide inera.core.template</b></p><a name="inera.core.template"> </a><a name="hcinera.core.template"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Språk: sv</p></div><h2>IneraCoreTemplate</h2><p>Den officiella URL:en för denna implementationsguide är: </p><pre>https://fhir.inera.se/ig/template/ImplementationGuide/inera.core.template</pre><div><p>Mall för Ineras FHIR Implementation Guides.</p>
+    <status value="generated"/><div xml:lang="sv" xmlns="http://www.w3.org/1999/xhtml" lang="sv"><p class="res-header-id"><b>Genererad berättande text: ImplementationGuide inera.core.template</b></p><a name="inera.core.template"> </a><a name="hcinera.core.template"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Språk: sv</p></div><h2>IneraCoreTemplate</h2><p>Den officiella URL:en för denna implementationsguide är: </p><pre>https://anetteg-j.github.io/Testmall/ImplementationGuide/inera.core.template</pre><div><p>Mall för Ineras FHIR Implementation Guides.</p>
 </div></div>
   </text>
-  <url value="https://fhir.inera.se/ig/template/ImplementationGuide/inera.core.template"/>
+  <url value="https://anetteg-j.github.io/Testmall/ImplementationGuide/inera.core.template"/>
   <version value="2.3.0"/>
   <name value="IneraCoreTemplate"/>
   <title value="Inera FHIR Implementation Guide Template"/>
   <status value="draft"/>
-  <date value="2026-10-28T14:18:39+00:00"/>
+  <date value="2026-10-28T15:17:58+00:00"/>
   <publisher value="Inera AB"/>
   <contact>
     <name value="Inera AB"/>
@@ -153,7 +153,7 @@
         <valueCode value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="https://fhir.inera.se/ig/template/history.html"/>
+        <valueString value="https://anetteg-j.github.io/Testmall/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -296,7 +296,7 @@
       </reference>
       <name value="Inera Patient Example"/>
       <description value="A minimal example of a patient conforming to the IneraPatient profile."/>
-      <exampleCanonical value="https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient"/>
+      <exampleCanonical value="https://anetteg-j.github.io/Testmall/StructureDefinition/IneraPatient"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
