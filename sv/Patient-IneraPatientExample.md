@@ -21,7 +21,7 @@ Anna Andersson (official) Female, Födelsedatum: 1950-01-01 ( http://electronich
   "resourceType" : "Patient",
   "id" : "IneraPatientExample",
   "meta" : {
-    "profile" : ["https://anetteg-j.github.io/Testmall/StructureDefinition/IneraPatient"]
+    "profile" : ["https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient"]
   },
   "identifier" : [{
     "system" : "http://electronichealth.se/identifier/personnummer",

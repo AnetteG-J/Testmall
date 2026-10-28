@@ -5,20 +5,20 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://anetteg-j.github.io/Testmall/ImplementationGuide/inera.core.template> a fhir:ImplementationGuide ;
+<https://fhir.inera.se/ig/template/ImplementationGuide/inera.core.template> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "inera.core.template"] ;
   fhir:Resource.language [ fhir:value "sv"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xml:lang=\"sv\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"sv\"><p class=\"res-header-id\"><b>Genererad berättande text: ImplementationGuide inera.core.template</b></p><a name=\"inera.core.template\"> </a><a name=\"hcinera.core.template\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Språk: sv</p></div><h2>IneraCoreTemplate</h2><p>Den officiella URL:en för denna implementationsguide är: </p><pre>https://anetteg-j.github.io/Testmall/ImplementationGuide/inera.core.template</pre><div><p>Mall för Ineras FHIR Implementation Guides.</p>\n</div></div>"
+     fhir:Narrative.div "<div xml:lang=\"sv\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"sv\"><p class=\"res-header-id\"><b>Genererad berättande text: ImplementationGuide inera.core.template</b></p><a name=\"inera.core.template\"> </a><a name=\"hcinera.core.template\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Språk: sv</p></div><h2>IneraCoreTemplate</h2><p>Den officiella URL:en för denna implementationsguide är: </p><pre>https://fhir.inera.se/ig/template/ImplementationGuide/inera.core.template</pre><div><p>Mall för Ineras FHIR Implementation Guides.</p>\n</div></div>"
   ] ;
-  fhir:ImplementationGuide.url [ fhir:value "https://anetteg-j.github.io/Testmall/ImplementationGuide/inera.core.template"] ;
+  fhir:ImplementationGuide.url [ fhir:value "https://fhir.inera.se/ig/template/ImplementationGuide/inera.core.template"] ;
   fhir:ImplementationGuide.version [ fhir:value "2.3.0"] ;
   fhir:ImplementationGuide.name [ fhir:value "IneraCoreTemplate"] ;
   fhir:ImplementationGuide.title [ fhir:value "Inera FHIR Implementation Guide Template"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-10-28T15:17:58+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-10-28T15:27:50+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Inera AB"] ;
   fhir:ImplementationGuide.contact [
      fhir:index -1 ;
@@ -232,7 +232,7 @@
        ], [
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "value" ] ;
-         fhir:Extension.valueString [ fhir:value "https://anetteg-j.github.io/Testmall/history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://fhir.inera.se/ig/template/history.html" ]
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -424,7 +424,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://anetteg-j.github.io/Testmall/StructureDefinition/IneraPatient> ;
+         fhir:link <https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/IneraPatient" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Inera Patient" ] ;
@@ -438,14 +438,14 @@
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://anetteg-j.github.io/Testmall/Patient/IneraPatientExample> ;
+         fhir:link <https://fhir.inera.se/ig/template/Patient/IneraPatientExample> ;
          fhir:Reference.reference [ fhir:value "Patient/IneraPatientExample" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Inera Patient Example" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A minimal example of a patient conforming to the IneraPatient profile." ] ;
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://anetteg-j.github.io/Testmall/StructureDefinition/IneraPatient" ;
-         fhir:link <https://anetteg-j.github.io/Testmall/StructureDefinition/IneraPatient>
+         fhir:value "https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient" ;
+         fhir:link <https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient>
        ]
      ] ;
      fhir:ImplementationGuide.definition.page [
@@ -678,7 +678,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://anetteg-j.github.io/Testmall/ImplementationGuide/inera.core.template.ttl> a owl:Ontology ;
+<https://fhir.inera.se/ig/template/ImplementationGuide/inera.core.template.ttl> a owl:Ontology ;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

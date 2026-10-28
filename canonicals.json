@@ -1,14 +1,14 @@
 [{
   "id" : "inera.core.template",
   "type" : "ImplementationGuide",
-  "url" : "https://anetteg-j.github.io/Testmall/ImplementationGuide/inera.core.template",
+  "url" : "https://fhir.inera.se/ig/template/ImplementationGuide/inera.core.template",
   "version" : "2.3.0",
   "name" : "IneraCoreTemplate"
 },
 {
   "id" : "IneraPatient",
   "type" : "StructureDefinition",
-  "url" : "https://anetteg-j.github.io/Testmall/StructureDefinition/IneraPatient",
+  "url" : "https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient",
   "version" : "2.3.0",
   "name" : "IneraPatient"
 }]
