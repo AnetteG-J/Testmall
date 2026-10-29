@@ -11,7 +11,7 @@
   "name" : "RegionStockholmTestmall",
   "title" : "Region Stockholms testmall implementationsguide FHIR",
   "status" : "draft",
-  "date" : "2026-10-29T10:27:40+00:00",
+  "date" : "2026-10-29T10:49:58+00:00",
   "publisher" : "Region Stockholm",
   "contact" : [{
     "name" : "Region Stockholm",
@@ -387,6 +387,18 @@
       "name" : "Inera Patient Example",
       "description" : "A minimal example of a patient conforming to the IneraPatient profile.",
       "exampleCanonical" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/StructureDefinition/IneraPatient"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/stockholm-genomic-device"
+      },
+      "name" : "Stockholm Device",
+      "description" : "Profile for devices and software systems used in genomic workflows, including sequencing platforms and bioinformatics pipelines referenced by procedures and analyses.",
+      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{

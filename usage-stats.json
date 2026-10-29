@@ -10,6 +10,12 @@
         "url": "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/StructureDefinition/IneraPatient",
         "title": "Inera Patient"
       }
+    ],
+    "Device": [
+      {
+        "url": "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/StructureDefinition/stockholm-genomic-device",
+        "title": "Stockholm Device"
+      }
     ]
   },
   "usage": {

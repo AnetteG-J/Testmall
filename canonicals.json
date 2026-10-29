@@ -11,4 +11,11 @@
   "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/StructureDefinition/IneraPatient",
   "version" : "2.3.0",
   "name" : "IneraPatient"
+},
+{
+  "id" : "stockholm-genomic-device",
+  "type" : "StructureDefinition",
+  "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/StructureDefinition/stockholm-genomic-device",
+  "version" : "2.3.0",
+  "name" : "StockholmGenomicDevice"
 }]

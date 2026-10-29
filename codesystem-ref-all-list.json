@@ -36,6 +36,30 @@
     "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender"
   },
   {
+    "url" : "http://hl7.org/fhir/device-nametype",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "DeviceNameType",
+    "title" : "DeviceNameType",
+    "description" : "The type of name the device is referred by.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1084"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-device-nametype.html" : "DeviceNameType"
+  },
+  {
+    "url" : "http://hl7.org/fhir/device-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "FHIRDeviceStatus",
+    "title" : "FHIRDeviceStatus",
+    "description" : "The availability status of the device.",
+    "oids" : ["2.16.840.1.113883.4.642.4.210"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-device-status.html" : "FHIRDeviceStatus"
+  },
+  {
     "url" : "http://hl7.org/fhir/identifier-use",
     "version" : "4.0.1",
     "status" : "active",
@@ -70,6 +94,42 @@
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-name-use.html" : "NameUse"
+  },
+  {
+    "url" : "http://hl7.org/fhir/udi-entry-type",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "UDIEntryType",
+    "title" : "UDIEntryType",
+    "description" : "Codes to identify how UDI data was entered.",
+    "oids" : ["2.16.840.1.113883.4.642.4.212"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-udi-entry-type.html" : "UDIEntryType"
+  },
+  {
+    "url" : "http://snomed.info/sct",
+    "version" : null,
+    "status" : "active",
+    "name" : "SNOMED_CT",
+    "title" : "SNOMED CT (all versions)",
+    "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+    "oids" : ["2.16.840.1.113883.6.96"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-device-type.html" : "Device Type"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/device-status-reason",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "FHIRDeviceStatusReason",
+    "title" : "FHIRDeviceStatusReason",
+    "description" : "The availability status reason of the device.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1082"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-device-status-reason.html" : "FHIRDeviceStatusReason"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",

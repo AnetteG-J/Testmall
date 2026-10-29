@@ -42,6 +42,62 @@
     "StructureDefinition-IneraPatient.html" : "Inera Patient"
   },
   {
+    "url" : "http://hl7.org/fhir/ValueSet/device-nametype",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "DeviceNameType",
+    "title" : "DeviceNameType",
+    "description" : "The type of name the device is referred by.",
+    "systems" : ["http://hl7.org/fhir/device-nametype"],
+    "oids" : ["2.16.840.1.113883.4.642.3.1083"],
+    "sources" : ["2.16.840.1.113883.4.642.3.1083"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-device.html" : "Stockholm Device"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/device-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "FHIRDeviceStatus",
+    "title" : "FHIRDeviceStatus",
+    "description" : "The availability status of the device.",
+    "systems" : ["http://hl7.org/fhir/device-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.209"],
+    "sources" : ["2.16.840.1.113883.4.642.3.209"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-device.html" : "Stockholm Device"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/device-status-reason",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "FHIRDeviceStatusReason",
+    "title" : "FHIRDeviceStatusReason",
+    "description" : "The availability status reason of the device.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/device-status-reason"],
+    "oids" : ["2.16.840.1.113883.4.642.3.1081"],
+    "sources" : ["2.16.840.1.113883.4.642.3.1081"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-device.html" : "Stockholm Device"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/device-type",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "DeviceType",
+    "title" : "Device Type",
+    "description" : "Codes used to identify medical devices. Includes concepts from SNOMED CT (http://www.snomed.org/) where concept is-a 49062001 (Device)  and is provided as a suggestive example.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.1376"],
+    "sources" : ["2.16.840.1.113883.4.642.3.1376"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-device.html" : "Stockholm Device"
+  },
+  {
     "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
     "version" : "4.0.1",
     "status" : "active",
@@ -81,7 +137,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
-    "StructureDefinition-IneraPatient.html" : "Inera Patient"
+    "StructureDefinition-IneraPatient.html" : "Inera Patient",
+    "StructureDefinition-stockholm-genomic-device.html" : "Stockholm Device"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -139,5 +196,19 @@
     "uses" : {
     },
     "StructureDefinition-IneraPatient.html" : "Inera Patient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/udi-entry-type",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "UDIEntryType",
+    "title" : "UDIEntryType",
+    "description" : "Codes to identify how UDI data was entered.",
+    "systems" : ["http://hl7.org/fhir/udi-entry-type"],
+    "oids" : ["2.16.840.1.113883.4.642.3.211"],
+    "sources" : ["2.16.840.1.113883.4.642.3.211"],
+    "uses" : {
+    },
+    "StructureDefinition-stockholm-genomic-device.html" : "Stockholm Device"
   }]
 }
