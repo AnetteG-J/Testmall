@@ -1,14 +1,14 @@
 [{
   "id" : "RegionStockholm",
   "type" : "ImplementationGuide",
-  "url" : "https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/ImplementationGuide/RegionStockholm",
+  "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/ImplementationGuide/RegionStockholm",
   "version" : "2.3.0",
   "name" : "RegionStockholmTestmall"
 },
 {
   "id" : "IneraPatient",
   "type" : "StructureDefinition",
-  "url" : "https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/StructureDefinition/IneraPatient",
+  "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/StructureDefinition/IneraPatient",
   "version" : "2.3.0",
   "name" : "IneraPatient"
 }]

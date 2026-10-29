@@ -1,14 +1,14 @@
 {
-  "url" : "https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/ImplementationGuide/RegionStockholm",
+  "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/ImplementationGuide/RegionStockholm",
   "name" : "RegionStockholmTestmall",
   "title" : "Region Stockholms testmall implementationsguide FHIR",
   "description" : "Mall för Region Stockholm FHIR Implementation Guides.",
   "status" : "draft",
   "package-id" : "RegionStockholm",
   "ig-ver" : "2.3.0",
-  "date" : "Thu, 29 Oct, 2026 10:02:57 +0000",
-  "dateISO8601" : "2026-10-29T10:02:57+00:00",
-  "errs" : 0,
+  "date" : "Thu, 29 Oct, 2026 10:27:40 +0000",
+  "dateISO8601" : "2026-10-29T10:27:40+00:00",
+  "errs" : 4,
   "warnings" : 1,
   "hints" : 6,
   "broken-links" : 3,
@@ -16,5 +16,5 @@
   "suppressed-warnings" : 3,
   "version" : "4.0.1",
   "tool" : "6.0.0-snapshot1 (3)",
-  "maxMemory" : 677093200
+  "maxMemory" : 676253736
 }

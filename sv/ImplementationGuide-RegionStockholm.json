@@ -4,14 +4,14 @@
   "language" : "sv",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"sv\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"sv\"><p class=\"res-header-id\"><b>Genererad berättande text: ImplementationGuide RegionStockholm</b></p><a name=\"RegionStockholm\"> </a><a name=\"hcRegionStockholm\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Språk: sv</p></div><h2>RegionStockholmTestmall</h2><p>Den officiella URL:en för denna implementationsguide är: </p><pre>https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/ImplementationGuide/RegionStockholm</pre><div><p>Mall för Region Stockholm FHIR Implementation Guides.</p>\n</div></div>"
+    "div" : "<div xml:lang=\"sv\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"sv\"><p class=\"res-header-id\"><b>Genererad berättande text: ImplementationGuide RegionStockholm</b></p><a name=\"RegionStockholm\"> </a><a name=\"hcRegionStockholm\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Språk: sv</p></div><h2>RegionStockholmTestmall</h2><p>Den officiella URL:en för denna implementationsguide är: </p><pre>https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/ImplementationGuide/RegionStockholm</pre><div><p>Mall för Region Stockholm FHIR Implementation Guides.</p>\n</div></div>"
   },
-  "url" : "https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/ImplementationGuide/RegionStockholm",
+  "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/ImplementationGuide/RegionStockholm",
   "version" : "2.3.0",
   "name" : "RegionStockholmTestmall",
   "title" : "Region Stockholms testmall implementationsguide FHIR",
   "status" : "draft",
-  "date" : "2026-10-29T10:02:57+00:00",
+  "date" : "2026-10-29T10:27:40+00:00",
   "publisher" : "Region Stockholm",
   "contact" : [{
     "name" : "Region Stockholm",
@@ -195,7 +195,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/history.html"
+        "valueString" : "https://pub.regionstockholm.se/fhir/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -386,7 +386,7 @@
       },
       "name" : "Inera Patient Example",
       "description" : "A minimal example of a patient conforming to the IneraPatient profile.",
-      "exampleCanonical" : "https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/StructureDefinition/IneraPatient"
+      "exampleCanonical" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/StructureDefinition/IneraPatient"
     }],
     "page" : {
       "extension" : [{

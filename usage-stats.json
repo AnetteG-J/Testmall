@@ -7,7 +7,7 @@
   "profiles": {
     "Patient": [
       {
-        "url": "https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/StructureDefinition/IneraPatient",
+        "url": "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/StructureDefinition/IneraPatient",
         "title": "Inera Patient"
       }
     ]

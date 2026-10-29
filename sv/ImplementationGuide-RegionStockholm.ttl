@@ -5,20 +5,20 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/ImplementationGuide/RegionStockholm> a fhir:ImplementationGuide ;
+<https://pub.regionstockholm.se/fhir/ImplementationGuide/RegionStockholm> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "RegionStockholm"] ;
   fhir:Resource.language [ fhir:value "sv"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xml:lang=\"sv\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"sv\"><p class=\"res-header-id\"><b>Genererad berättande text: ImplementationGuide RegionStockholm</b></p><a name=\"RegionStockholm\"> </a><a name=\"hcRegionStockholm\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Språk: sv</p></div><h2>RegionStockholmTestmall</h2><p>Den officiella URL:en för denna implementationsguide är: </p><pre>https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/ImplementationGuide/RegionStockholm</pre><div><p>Mall för Region Stockholm FHIR Implementation Guides.</p>\n</div></div>"
+     fhir:Narrative.div "<div xml:lang=\"sv\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"sv\"><p class=\"res-header-id\"><b>Genererad berättande text: ImplementationGuide RegionStockholm</b></p><a name=\"RegionStockholm\"> </a><a name=\"hcRegionStockholm\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Språk: sv</p></div><h2>RegionStockholmTestmall</h2><p>Den officiella URL:en för denna implementationsguide är: </p><pre>https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/ImplementationGuide/RegionStockholm</pre><div><p>Mall för Region Stockholm FHIR Implementation Guides.</p>\n</div></div>"
   ] ;
-  fhir:ImplementationGuide.url [ fhir:value "https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/ImplementationGuide/RegionStockholm"] ;
+  fhir:ImplementationGuide.url [ fhir:value "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/ImplementationGuide/RegionStockholm"] ;
   fhir:ImplementationGuide.version [ fhir:value "2.3.0"] ;
   fhir:ImplementationGuide.name [ fhir:value "RegionStockholmTestmall"] ;
   fhir:ImplementationGuide.title [ fhir:value "Region Stockholms testmall implementationsguide FHIR"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-10-29T10:02:57+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-10-29T10:27:40+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Region Stockholm"] ;
   fhir:ImplementationGuide.contact [
      fhir:index -1 ;
@@ -232,7 +232,7 @@
        ], [
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "value" ] ;
-         fhir:Extension.valueString [ fhir:value "https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://pub.regionstockholm.se/fhir/history.html" ]
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -424,7 +424,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/StructureDefinition/IneraPatient> ;
+         fhir:link <https://pub.regionstockholm.se/fhir/StructureDefinition/IneraPatient> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/IneraPatient" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Inera Patient" ] ;
@@ -438,14 +438,14 @@
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/Patient/IneraPatientExample> ;
+         fhir:link <https://pub.regionstockholm.se/fhir/Patient/IneraPatientExample> ;
          fhir:Reference.reference [ fhir:value "Patient/IneraPatientExample" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Inera Patient Example" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A minimal example of a patient conforming to the IneraPatient profile." ] ;
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/StructureDefinition/IneraPatient" ;
-         fhir:link <https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/StructureDefinition/IneraPatient>
+         fhir:value "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/StructureDefinition/IneraPatient" ;
+         fhir:link <https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/StructureDefinition/IneraPatient>
        ]
      ] ;
      fhir:ImplementationGuide.definition.page [
@@ -678,7 +678,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/ImplementationGuide/RegionStockholm.ttl> a owl:Ontology ;
+<https://pub.regionstockholm.se/fhir/ImplementationGuide/RegionStockholm.ttl> a owl:Ontology ;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

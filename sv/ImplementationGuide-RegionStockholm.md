@@ -9,12 +9,12 @@
   "resourceType" : "ImplementationGuide",
   "id" : "RegionStockholm",
   "language" : "sv",
-  "url" : "https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/ImplementationGuide/RegionStockholm",
+  "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/ImplementationGuide/RegionStockholm",
   "version" : "2.3.0",
   "name" : "RegionStockholmTestmall",
   "title" : "Region Stockholms testmall implementationsguide FHIR",
   "status" : "draft",
-  "date" : "2026-10-29T10:02:57+00:00",
+  "date" : "2026-10-29T10:27:40+00:00",
   "publisher" : "Region Stockholm",
   "contact" : [{
     "name" : "Region Stockholm",
@@ -198,7 +198,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/history.html"
+        "valueString" : "https://pub.regionstockholm.se/fhir/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -397,7 +397,7 @@
       },
       "name" : "Inera Patient Example",
       "description" : "A minimal example of a patient conforming to the IneraPatient profile.",
-      "exampleCanonical" : "https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/StructureDefinition/IneraPatient"
+      "exampleCanonical" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/StructureDefinition/IneraPatient"
     }],
     "page" : {
       "extension" : [{

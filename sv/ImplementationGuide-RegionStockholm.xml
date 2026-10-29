@@ -4,15 +4,15 @@
   <id value="RegionStockholm"/>
   <language value="sv"/>
   <text>
-    <status value="generated"/><div xml:lang="sv" xmlns="http://www.w3.org/1999/xhtml" lang="sv"><p class="res-header-id"><b>Genererad berättande text: ImplementationGuide RegionStockholm</b></p><a name="RegionStockholm"> </a><a name="hcRegionStockholm"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Språk: sv</p></div><h2>RegionStockholmTestmall</h2><p>Den officiella URL:en för denna implementationsguide är: </p><pre>https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/ImplementationGuide/RegionStockholm</pre><div><p>Mall för Region Stockholm FHIR Implementation Guides.</p>
+    <status value="generated"/><div xml:lang="sv" xmlns="http://www.w3.org/1999/xhtml" lang="sv"><p class="res-header-id"><b>Genererad berättande text: ImplementationGuide RegionStockholm</b></p><a name="RegionStockholm"> </a><a name="hcRegionStockholm"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Språk: sv</p></div><h2>RegionStockholmTestmall</h2><p>Den officiella URL:en för denna implementationsguide är: </p><pre>https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/ImplementationGuide/RegionStockholm</pre><div><p>Mall för Region Stockholm FHIR Implementation Guides.</p>
 </div></div>
   </text>
-  <url value="https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/ImplementationGuide/RegionStockholm"/>
+  <url value="https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/ImplementationGuide/RegionStockholm"/>
   <version value="2.3.0"/>
   <name value="RegionStockholmTestmall"/>
   <title value="Region Stockholms testmall implementationsguide FHIR"/>
   <status value="draft"/>
-  <date value="2026-10-29T10:02:57+00:00"/>
+  <date value="2026-10-29T10:27:40+00:00"/>
   <publisher value="Region Stockholm"/>
   <contact>
     <name value="Region Stockholm"/>
@@ -153,7 +153,7 @@
         <valueCode value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/history.html"/>
+        <valueString value="https://pub.regionstockholm.se/fhir/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -296,7 +296,7 @@
       </reference>
       <name value="Inera Patient Example"/>
       <description value="A minimal example of a patient conforming to the IneraPatient profile."/>
-      <exampleCanonical value="https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall/StructureDefinition/IneraPatient"/>
+      <exampleCanonical value="https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/StructureDefinition/IneraPatient"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
