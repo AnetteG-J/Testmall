@@ -39,6 +39,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1"],
     "uses" : {
     },
+    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
     "StructureDefinition-IneraPatient.html" : "Inera Patient"
   },
   {
@@ -109,6 +110,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.45"],
     "uses" : {
     },
+    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
     "StructureDefinition-IneraPatient.html" : "Inera Patient"
   },
   {
@@ -123,6 +125,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.57"],
     "uses" : {
     },
+    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
     "StructureDefinition-IneraPatient.html" : "Inera Patient"
   },
   {
@@ -137,6 +140,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
+    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
     "StructureDefinition-IneraPatient.html" : "Inera Patient",
     "StructureDefinition-stockholm-genomic-device.html" : "Stockholm Device"
   },
@@ -152,6 +156,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.423"],
     "uses" : {
     },
+    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
     "StructureDefinition-IneraPatient.html" : "Inera Patient"
   },
   {
@@ -167,6 +172,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.29"],
     "uses" : {
     },
+    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
     "StructureDefinition-IneraPatient.html" : "Inera Patient"
   },
   {
@@ -195,6 +201,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1130"],
     "uses" : {
     },
+    "StructureDefinition-stockholm-genomic-patient.html" : "Stockholm Genomic Patient",
     "StructureDefinition-IneraPatient.html" : "Inera Patient"
   },
   {

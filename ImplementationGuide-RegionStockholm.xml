@@ -12,7 +12,7 @@
   <name value="RegionStockholmTestmall"/>
   <title value="Region Stockholms testmall implementationsguide FHIR"/>
   <status value="draft"/>
-  <date value="2026-10-29T12:29:08+00:00"/>
+  <date value="2026-10-29T12:36:03+00:00"/>
   <publisher value="Region Stockholm"/>
   <contact>
     <name value="Region Stockholm"/>
@@ -307,6 +307,17 @@
       </reference>
       <name value="Stockholm Device"/>
       <description value="Profile for devices and software systems used in genomic workflows, including sequencing platforms and bioinformatics pipelines referenced by procedures and analyses."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/stockholm-genomic-patient"/>
+      </reference>
+      <name value="Stockholm Genomic Patient"/>
+      <description value="Minimal Patient profile for genomic studies. Exposes only the key elements required: identifier, gender, birthDate and deceased."/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

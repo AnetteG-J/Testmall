@@ -18,4 +18,11 @@
   "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/StructureDefinition/stockholm-genomic-device",
   "version" : "2.3.0",
   "name" : "StockholmGenomicDevice"
+},
+{
+  "id" : "stockholm-genomic-patient",
+  "type" : "StructureDefinition",
+  "url" : "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/StructureDefinition/stockholm-genomic-patient",
+  "version" : "2.3.0",
+  "name" : "StockholmGenomicPatient"
 }]

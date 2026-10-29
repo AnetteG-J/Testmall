@@ -14,7 +14,7 @@
   "name" : "RegionStockholmTestmall",
   "title" : "Region Stockholms testmall implementationsguide FHIR",
   "status" : "draft",
-  "date" : "2026-10-29T12:29:08+00:00",
+  "date" : "2026-10-29T12:36:03+00:00",
   "publisher" : "Region Stockholm",
   "contact" : [{
     "name" : "Region Stockholm",
@@ -413,6 +413,22 @@
       },
       "name" : "Stockholm Device",
       "description" : "Profile for devices and software systems used in genomic workflows, including sequencing platforms and bioinformatics pipelines referenced by procedures and analyses.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-stockholm-genomic-patient.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/stockholm-genomic-patient"
+      },
+      "name" : "Stockholm Genomic Patient",
+      "description" : "Minimal Patient profile for genomic studies. Exposes only the key elements required: identifier, gender, birthDate and deceased.",
       "exampleBoolean" : false
     }],
     "page" : {

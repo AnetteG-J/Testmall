@@ -25,6 +25,7 @@
 
 * [Inera Patient](StructureDefinition-IneraPatient.md)
 * [Stockholm Device](StructureDefinition-stockholm-genomic-device.md)
+* [Stockholm Genomic Patient](StructureDefinition-stockholm-genomic-patient.md)
 
 ### ImplementationGuides
 

@@ -7,8 +7,8 @@
   "profiles": {
     "Patient": [
       {
-        "url": "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/StructureDefinition/IneraPatient",
-        "title": "Inera Patient"
+        "url": "https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/StructureDefinition/stockholm-genomic-patient",
+        "title": "Stockholm Genomic Patient"
       }
     ],
     "Device": [
