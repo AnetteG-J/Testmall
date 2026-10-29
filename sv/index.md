@@ -6,7 +6,7 @@
 
 **Ange ett namn som ringar in det avgränsade område som denna IG realiserar, t.ex. "stockholm.fhir.digitalhealthplatf orm" eller "GenomicDataRepository".**
 
-*Välj ett kort, stabilt och beskrivande namn som speglar informationsmängden eller API:ets syfte, snarare än projekt-, organisations- eller versionsnamn. Domännamnet (canonical URL) ska ligga under en långsiktigt förvaltad region Stockholm-domän, pub.regionstockholm.se/fhir/ImplementationGuide/, och ska inte innehålla versionsnummer eftersom versioner hanteras i FHIR-paketet och Implementation Guidens metadata. Använd samma namn konsekvent i paketnamn, repository, canonical URL och dokumentation för att underlätta identifiering och återanvändning."*
+**Välj ett kort, stabilt och beskrivande namn som speglar informationsmängden eller API:ets syfte, snarare än projekt-, organisations- eller versionsnamn. Domännamnet (canonical URL) ska ligga under en långsiktigt förvaltad region Stockholm-domän, ´ https://pub.regionstockholm.se/fhir/ImplementationGuide/namn ´, och ska inte innehålla versionsnummer eftersom versioner hanteras i FHIR-paketet och Implementation Guidens metadata. Använd samma namn konsekvent i paketnamn, repository, canonical URL och dokumentation för att underlätta identifiering och återanvändning."**
 
 -------
 

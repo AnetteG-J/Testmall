@@ -6,15 +6,15 @@
   "status" : "draft",
   "package-id" : "RegionStockholm",
   "ig-ver" : "2.3.0",
-  "date" : "Thu, 29 Oct, 2026 12:17:57 +0000",
-  "dateISO8601" : "2026-10-29T12:17:57+00:00",
+  "date" : "Thu, 29 Oct, 2026 12:25:30 +0000",
+  "dateISO8601" : "2026-10-29T12:25:30+00:00",
   "errs" : 6,
-  "warnings" : 3,
+  "warnings" : 2,
   "hints" : 7,
   "broken-links" : 3,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 3,
   "version" : "4.0.1",
   "tool" : "6.0.0-snapshot1 (3)",
-  "maxMemory" : 636485512
+  "maxMemory" : 1132865840
 }
