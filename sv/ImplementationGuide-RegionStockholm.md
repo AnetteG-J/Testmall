@@ -14,7 +14,7 @@
   "name" : "RegionStockholmTestmall",
   "title" : "Region Stockholms testmall implementationsguide FHIR",
   "status" : "draft",
-  "date" : "2026-10-29T13:46:42+00:00",
+  "date" : "2026-10-29T13:53:27+00:00",
   "publisher" : "Region Stockholm",
   "contact" : [{
     "name" : "Region Stockholm",
