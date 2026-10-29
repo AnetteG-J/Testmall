@@ -4,9 +4,9 @@
 
 ### Styrning och förvaltning
 
-FHIR-profiler förvaltas av Inera: [Källkod](https://github.com/inera-ab).
+FHIR-profiler förvaltas av Region Stockholm: [Källkod](https://github.com/AnetteG-J).
 
-En beskrivning av krav på följsamhet samt vägledning vid implementering av Ineras FHIR-IG:ar finns på [Inera FHIR-landningssidan](https://fhir.inera.se/).
+En beskrivning av krav på följsamhet samt vägledning vid implementering av Region Stockholms FHIR-IG:ar finns på [Region Stockholm -landningssidan](https://fhir.inera.se/).
 
 Landningssidan ger en översikt av krav på system som vill ansluta sig till Ineras tjänster via FHIR.
 
