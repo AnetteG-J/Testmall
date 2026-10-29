@@ -1,5 +1,5 @@
 id: RegionStockholm
-canonical: https://pub.regionstockholm.se/fhir/StructureDefinition/Testmall
+canonical: https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall
 name: RegionStockholmTestmall
 title: "Region Stockholms testmall implementationsguide FHIR"
 description: "Mall för Region Stockholm FHIR Implementation Guides."
