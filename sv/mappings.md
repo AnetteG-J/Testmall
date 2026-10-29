@@ -1,4 +1,4 @@
-# Mappning till profiler - Inera FHIR Implementation Guide Template v2.3.0
+# Mappning till profiler - Region Stockholms testmall implementationsguide FHIR v2.3.0
 
 ## Mappning till profiler
 

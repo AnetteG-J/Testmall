@@ -1,4 +1,4 @@
-# Testning och validering - Inera FHIR Implementation Guide Template v2.3.0
+# Testning och validering - Region Stockholms testmall implementationsguide FHIR v2.3.0
 
 ## Testning och validering
 
