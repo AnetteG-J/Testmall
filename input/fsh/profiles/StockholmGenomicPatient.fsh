@@ -20,9 +20,11 @@ Description: "Minimal Patient profile for genomic studies. Exposes only the key 
 * deceased[x] MS
   * ^short = "Deceased indicator or date"
   * ^definition = "States whether the patient is deceased, optionally with date/time where available."
-* link MS
-  * ^short = "Reference to a RelatedPerson describing another person/patient"
-  * ^definition = "Used to link the patient to a RelatedPerson resource that describes the relationship to another person/patient. The RelatedPerson resource itself points back to the patient and defines the relationship to the proband patient."
-* link.other only Reference(RelatedPerson)
-  * ^short = "Related person resource for the other person/patient"
-  * ^definition = "The RelatedPerson resource representing the other person/patient and the relationship to the proband patient."
+
+// TODO: Uncomment the section below when the RelatedPerson profile/resource has been created.
+// * link MS
+//   * ^short = "Reference to a RelatedPerson describing another person/patient"
+//   * ^definition = "Used to link the patient to a RelatedPerson resource that describes the relationship to another person/patient. The RelatedPerson resource itself points back to the patient and defines the relationship to the proband patient."
+// * link.other only Reference(RelatedPerson)
+//   * ^short = "Related person resource for the other person/patient"
+//   * ^definition = "The RelatedPerson resource representing the other person/patient and the relationship to the proband patient."
