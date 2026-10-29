@@ -1,6 +1,7 @@
 RegionStockholmTestmall
 =========================================
 
+Generic: line 0, col 0, Warning - Illegal HTML: illegal html element: namn (, och ska inte innehålla versionsnummer eftersom versioner hanteras i FHIR-paketet och Implementation Guidens metadata. Använd samma namn konsekvent i paketnamn, repository, canonical URL och dokumentation för att underlätta identifiering och återanvändning."*) (INVALID)
 Generic: line 0, col 0, Error - The link '[länk till publicerat dokument]' for "Namn på informationsspecifikationen" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'StructureDefinition-[Profil].html' for "Profil.element" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'StructureDefinition-[Profil].html' for "Profil.element" cannot be resolved (NOTFOUND)
@@ -20,5 +21,5 @@ Generic: line 0, col 0, Error - The link 'StructureDefinition-[Profil].html' for
 /home/runner/work/Testmall/Testmall/fsh-generated/resources/StructureDefinition-stockholm-genomic-device.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 /home/runner/work/Testmall/Testmall/fsh-generated/resources/StructureDefinition-stockholm-genomic-device.json: line 0, col 0, Error - URL Mismatch https://pub.regionstockholm.se/fhir/StructureDefinition/stockholm-genomic-device vs https://pub.regionstockholm.se/fhir/ImplementationGuide/Testmall/StructureDefinition/stockholm-genomic-device (BUSINESSRULE)
 
-err = 6, warn = 2, info = 7, broken links = 3
+err = 6, warn = 3, info = 7, broken links = 3
 IG Publisher Version: 3.0.1

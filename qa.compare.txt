@@ -1,10 +1,10 @@
 RegionStockholmTestmall : Validation Results
 =========================================
 
-err = 6, warn = 2, info = 7, broken links = 3
+err = 6, warn = 3, info = 7, broken links = 3
 $--
 Generated $--. FHIR version $-- for RegionStockholm#$-- (canonical = https://pub.regionstockholm.se/fhir)
- Build Errors : 3 / 0 / 0
+ Build Errors : 3 / 1 / 0
  /home/runner/work/Testmall/Testmall/fsh-generated/resources/ImplementationGuide-RegionStockholm : 2 / 0 / 3
  /home/runner/work/Testmall/Testmall/fsh-generated/resources/Patient-IneraPatientExample : 0 / 1 / 1
  /home/runner/work/Testmall/Testmall/fsh-generated/resources/StructureDefinition-IneraPatient : 2 / 0 / 4
@@ -12,6 +12,7 @@ Generated $--. FHIR version $-- for RegionStockholm#$-- (canonical = https://pub
 </table>
 
 == n/a ==
+WARNING: /home/runner/work/Testmall/Testmall/output/sv/index.html: Illegal HTML: illegal html element: namn (, och ska inte innehålla versionsnummer eftersom versioner hanteras i FHIR-paketet och Implementation Guidens metadata. Använd samma namn konsekvent i paketnamn, repository, canonical URL och dokumentation för att underlätta identifiering och återanvändning."*)
 ERROR: sv/information-basis.html#/html/body/div/div/div/div/div/table/tbody/tr/td/em/a at Line 193, column 16: The link '[länk till publicerat dokument]' for "Namn på informationsspecifikationen" cannot be resolved
 ERROR: sv/mappings.html#/html/body/div/div/div/div/div/table/tbody/tr/td/em/a at Line 227, column 16: The link 'StructureDefinition-[Profil].html' for "Profil.element" cannot be resolved
 ERROR: sv/mappings.html#/html/body/div/div/div/div/div/table/tbody/tr/td/em/a at Line 233, column 16: The link 'StructureDefinition-[Profil].html' for "Profil.element" cannot be resolved
