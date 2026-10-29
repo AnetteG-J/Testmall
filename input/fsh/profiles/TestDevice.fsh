@@ -17,7 +17,7 @@ Id: stockholm-genomic-device
   * ^short = "Operational device status"
   * ^definition = "Indicates whether the device is active, inactive, or entered in error at the time of use."
 
-* status from StockholmGenomicDeviceStatusVS (required)
+// * status from StockholmGenomicDeviceStatusVS (required)
 
 * manufacturer 0..1 MS
 * serialNumber 0..1 MS
@@ -26,10 +26,10 @@ Id: stockholm-genomic-device
   * ^short = "Classified device type used in genomics"
   * ^definition = "Coded device type describing the platform, instrument, or software category used in the workflow."
 
-* type from StockholmGenomicDeviceTypeVS (required)
+// * type from StockholmGenomicDeviceTypeVS (required)
 * version 0..* MS
 
-* extension contains StockholmGenomicExtensionDeviceDocumentation named documentation 0..*
-* extension[documentation] MS
-  * ^short = "Documentation links for the device"
-  * ^definition = "Optional references or identifiers to supporting device documentation used for interpretation and traceability."
+// * extension contains StockholmGenomicExtensionDeviceDocumentation named documentation 0..*
+// * extension[documentation] MS
+//   * ^short = "Documentation links for the device"
+//   * ^definition = "Optional references or identifiers to supporting device documentation used for interpretation and traceability."
