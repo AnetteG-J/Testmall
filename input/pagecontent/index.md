@@ -1,25 +1,26 @@
 ### [Domännamn]
 
-*Ange ett namn som ringar in det avgränsade område som denna IG realiserar, t.ex. "Fasta kontakter" eller "Öppenvårdsemiss".*
+*Ange ett namn som ringar in det avgränsade område som denna IG realiserar, t.ex. "stockholm.fhir.digitalhealthplatf
+orm" eller "GenomicDataRepository".*
 
-*Välj ett kort, stabilt och beskrivande namn som speglar informationsmängden eller API:ets syfte, snarare än projekt-, organisations- eller versionsnamn. Domännamnet (canonical URL) ska ligga under en långsiktigt förvaltad Inera-domän, `https://fhir.inera.se/ig/<namn>`, och ska inte innehålla versionsnummer eftersom versioner hanteras i FHIR-paketet och Implementation Guidens metadata. Använd samma namn konsekvent i paketnamn, repository, canonical URL och dokumentation för att underlätta identifiering och återanvändning."*
+*Välj ett kort, stabilt och beskrivande namn som speglar informationsmängden eller API:ets syfte, snarare än projekt-, organisations- eller versionsnamn. Domännamnet (canonical URL) ska ligga under en långsiktigt förvaltad region Stockholm-domän, https://pub.regionstockholm.se/fhir/ImplementationGuide/<namn>, och ska inte innehålla versionsnummer eftersom versioner hanteras i FHIR-paketet och Implementation Guidens metadata. Använd samma namn konsekvent i paketnamn, repository, canonical URL och dokumentation för att underlätta identifiering och återanvändning."*
 
 ---
 
 ### Omfattning
 
-*Definiera vad som ingår i denna IG och beskriv eventuella avgränsningar. Specificera vilka användningsfall, kliniska scenarier eller informationsutbyten som beskrivs. Om denna IG är avsedd att användas som en basprofil/gemensam profil för mer specialiserade guider, beskriv det här.*
+*Definiera vad som ingår i denna implementationsguide och beskriv eventuella avgränsningar. Specificera vilka användningsfall, kliniska scenarier eller informationsutbyten som beskrivs. Om denna IG är avsedd att användas som en basprofil/gemensam profil för mer specialiserade guider, beskriv det här.*
 
 ---
 
 ### Syfte
 
-*Beskriv målet med denna IG. Förklara vilket problem den löser och hur den passar in i det bredare Inera- och e-hälsolandskapet. Hänvisa till nationella eller regionala program, standarder eller mandat som motiverat arbetet.*
+*Beskriv målet med denna implementationsguide. Förklara vilket problem den löser och hur den passar in i det bredare e-hälsolandskapet. Hänvisa till nationella eller regionala program, standarder eller mandat som motiverat arbetet.*
 
 ---
 
 ### Målgrupp
-*Ange målgrupper för IG:n, (speciellt viktigt om IG:n vänder sig till andra målgrupper än systemarkitekter och utvecklare, t ex levernatörer av vissa system, eller verksamhetsarkitektrer inom en viss verksamhet). Hänvisa gärna nya läsare till  [Inledning](introduction.html) och implementatörer till relevanta tekniska avsnitt, exempelvis [REST-interaktioner och sökparametrar](rest-interactions.html).*
+*Ange målgrupper för implementationsguiden, (speciellt viktigt om implementationsguiden vänder sig till andra målgrupper än systemarkitekter och utvecklare, t. ex. leverantörer av vissa system, eller verksamhetsarkitekter inom en viss verksamhet). Hänvisa gärna nya läsare till  [Inledning](introduction.html) och implementatörer till relevanta tekniska avsnitt, exempelvis [REST-interaktioner och sökparametrar](rest-interactions.html).*
 
 
 ---
@@ -38,7 +39,7 @@ På [Inera Terminologitjänst](https://www.inera.se/tjanster/alla-tjanster-a-o/t
 
 ### Dokumentation
 
-Mer information om FHIR på Inera  finns [här](https://fhir.inera.se/). FHIR på Inera är en del av RIVTA – referensarkitekturen för svensk hälso- och sjukvård.
+Mer information om FHIR inom region Stockholm  finns [här][(https://vardgivarguiden.se/it-stod/informatik/region-stockholm-on-fhir/)].
 
 Information om hur denna IG förvaltas finns under [Om](about.html).
 
