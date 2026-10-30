@@ -65,7 +65,7 @@ Andra representationer av profilen: [CSV](../StructureDefinition-stockholm-genom
   "name" : "StockholmGenomicDevice",
   "title" : "Stockholm Device",
   "status" : "draft",
-  "date" : "2026-10-29T13:59:37+00:00",
+  "date" : "2026-10-30T08:47:43+00:00",
   "publisher" : "Region Stockholm",
   "contact" : [{
     "name" : "Region Stockholm",
