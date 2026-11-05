@@ -10,6 +10,9 @@ copyrightYear: 2024+
 releaseLabel: ci-build
 license: CC0-1.0
 
+dependencies:
+  hl7.fhir.uv.genomics-reporting: 3.0.0
+
 publisher:
   name: Region Stockholm
   url: https://www.regionstockholm.se

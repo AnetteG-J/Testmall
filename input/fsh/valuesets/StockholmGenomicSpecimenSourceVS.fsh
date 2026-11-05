@@ -5,10 +5,10 @@ Description: "Original biological material from which the material used for geno
 
 * ^status = #draft
 * ^experimental = true
-* StockholmGenomicDraftCS#blood-source
-* StockholmGenomicDraftCS#bone-marrow-source
-* StockholmGenomicDraftCS#tissue-source
-* StockholmGenomicDraftCS#saliva-source
-* StockholmGenomicDraftCS#urine-source
-* StockholmGenomicDraftCS#buccal-swab-source
-* StockholmGenomicDraftCS#muscle-source
+* StockholmGenomicConceptsCS#blood-source
+* StockholmGenomicConceptsCS#bone-marrow-source
+* StockholmGenomicConceptsCS#tissue-source
+* StockholmGenomicConceptsCS#saliva-source
+* StockholmGenomicConceptsCS#urine-source
+* StockholmGenomicConceptsCS#buccal-swab-source
+* StockholmGenomicConceptsCS#muscle-source
