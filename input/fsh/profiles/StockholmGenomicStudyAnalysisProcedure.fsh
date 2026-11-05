@@ -1,0 +1,71 @@
+Profile: StockholmGenomicStudyAnalysisProcedure
+Parent: GenomicStudyAnalysis
+Id: stockholm-genomic-study-analysis-procedure
+Title: "Stockholm Genomic Study Analysis Procedure"
+Description: "GenomicStudyAnalysis profile that captures the analysis phase of a genomic case, including input files, output files, tools, and optional pedigree/region context."
+* ^status = #draft
+* ^version = "1.0.0-alpha.1"
+* extension[regions] MS 
+* extension[regions].extension[studied].valueReference only Reference(http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-data-file)
+* extension[device] MS
+* extension[device].extension[device].value[x] only Reference(StockholmGenomicDevice) 
+* extension[input] MS
+* extension[input] ^short = "Analysis input artifacts"
+* extension[input] ^definition = "Input files and related metadata used as analysis material for this genomic case."
+* extension[input].extension[type].value[x] from StockholmGenomicStudyDataFormatVS 
+* extension[input].extension[file].valueReference only Reference(http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-data-file)
+* extension[output] MS
+* extension[output] ^short = "Analysis output artifacts"
+* extension[output] ^definition = "Output files and related metadata produced by the genomic analysis workflow."
+* extension[output].extension[type].value[x] from StockholmGenomicStudyDataFormatVS
+* extension[specimen] MS
+* extension[specimen] ^short = "Specimen context for the analysis"
+* extension contains StockholmGenomicAnalysisExtensionPedigree named pedigree 0..1 and
+    StockholmGenomicStudyAnalysisExtensionAnalysisPipeline named analysis-pipeline 0..1
+* extension[pedigree] MS
+  * ^short = "Optional pedigree document reference"
+  * ^comment = "Can be used to link to a pedigree document used as input for the analysis. The pedigree document should be represented as a GenomicDataFile resource. Can also be linked from the input element if preferred."
+* extension[analysis-pipeline] MS
+  * ^short = "Pipeline or software used for analysis"
+  * value[x] only Reference(Device)
+* instantiatesCanonical ..0
+* instantiatesUri ..0
+* partOf only Reference(Procedure or StockholmGenomicStudyProcedure)
+* partOf ^short = "Parent genomic study procedure"
+* partOf ^definition = "Links this analysis to the study-level procedure it belongs to."
+* status MS
+* status from StockholmGenomicProcedureStatusVS (required) 
+  * ^comment = "The following statuses can be used: in-progress, completed."
+* code ..0
+* subject MS
+* subject only Reference(Patient) 
+  * ^short = "Proband/patient for the analysis"
+  * ^requirements = "A Genomic Study must be linked to a Patient resource. It must point to the same patient as the one linked from the Genomic Study procedure resource."
+  * ^comment = "Should be used to point to the proband patient. Should be used to point to the patient resource in Stockholm demographic server if possible."
+* performed[x] MS 
+  * ^short = "When analysis was performed"
+  * ^requirements = "It must be possible to record and read when the procedure was performed. This can be done with either a dateTime or a Period depending on the use case and the level of detail available."
+* performer
+  * actor MS
+  * actor only Reference(Organization)
+    * ^requirements = "The Genomic Study procedure must be linked to the organization that performed the analysis, typically a laboratory. This can be done with a reference to an Organization resource or with an identifier for the organization if a reference is not possible."
+    * ^definition = "The performer is the organization that is responsible for the procedure. In this case, the laboratory that performs the genomic analysis." 
+    * type = "Organization" (exactly)
+    * identifier
+      * ^comment = "Identifier must be used when a reference to an organisation resource is not possible"
+      * system 1..1
+      * value 1..1
+      * system ^comment = "Currently, a local system URL (e.g. http://gmck.se/clarity-lims) is used as the identifier for the laboratory. When HSA-ID/kombika is available, e.g. urn:oid:1.2.752.29.4.71 should be used."
+    * display ^comment = "Can be set automatically to the laboratory's organization when possible. Otherwise, it may be left blank."
+  * onBehalfOf MS
+  * onBehalfOf only Reference(Organization)
+    * ^requirements = "The Genomic Study procedure should be linked to the organization that requested the analysis, typically another diagnostic unit. This can be done with a reference to an Organization resource or with an identifier for the organization if a reference is not possible."
+    * ^definition = "The organization the device or practitioner was acting on behalf of. Note that if this element is empty, the perfomer Genomic Study profile is used."
+    * ^comment = "onBehalfOf should be used to point to the requester of the genomic analysis, as long as no structured referral is available. If there is a reference to a serviceRequest, then the requester should be described in the serviceRequest instead."
+    * type = "Organization" (exactly)
+    * identifier
+      * ^comment = "Identifier must be used when a reference to an organisation resource is not possible"
+      * system 1..1
+      * value 1..1
+      * system ^comment = "The requester is assigned a serial number (cust001 and upwards) which is specified as text. A system URL representing the requester should be used"
+    * display ^comment = "Can be used if a display name of the requester organisation is available"
