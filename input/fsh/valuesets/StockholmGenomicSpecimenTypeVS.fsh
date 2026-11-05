@@ -5,7 +5,7 @@ Description: "Types of material used for genomic analysis. In this draft, the sc
 
 * ^status = #draft
 * ^experimental = true
-* StockholmGenomicDraftCS#dna-material
-* StockholmGenomicDraftCS#rna-material
-* StockholmGenomicDraftCS#cfdna-material
-* StockholmGenomicDraftCS#miRNA-material
+* StockholmGenomicConceptsCS#dna-material
+* StockholmGenomicConceptsCS#rna-material
+* StockholmGenomicConceptsCS#cfdna-material
+* StockholmGenomicConceptsCS#miRNA-material
